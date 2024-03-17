@@ -1,0 +1,53 @@
+.spec-card {
+    flex: 1;
+    min-width: 230px;
+    max-width: 400px;
+    aspect-ratio: 3/4;
+    color: #333333;
+    background-color: #FBDABB;
+    border-radius: 16px 16px 0px 0px;
+    font-family: 'Karla', sans-serif;
+}
+.spec-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: 1rem;
+}
+.spec-card p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+.spec-card h4 {
+    font-size: 16px;
+    font-weight: 900;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.title-price > h2 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+.title-price > h3 {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}

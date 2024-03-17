@@ -1,0 +1,28 @@
+.testimonials {
+    width: 100%;
+    text-align: center;
+    background-color: #ee9972;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.testimonials h1 {
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.testimonial-cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}

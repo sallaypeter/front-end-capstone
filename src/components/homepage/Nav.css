@@ -1,0 +1,28 @@
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+nav a {
+    color: #495E57;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #495E57;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 3px;
+}
+
