@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import restaurant from "../../assets/restaurant-footer.jpg";
-import facebook from "../../assets/facebook-32px.png"
-import instagram from "../../assets/instagram-32.png"
-import tiktok from "../../assets/tiktok-32.png"
+import facebook from "../../assets/facebook-32px.png";
+import instagram from "../../assets/instagram-32.png";
+import tiktok from "../../assets/tiktok-32.png";
+import youtube from "../../assets/youtube-32.png";
 
 function Footer() {
     return (
@@ -31,9 +32,10 @@ function Footer() {
             </div>
             <div>
                 <h2>Social Media</h2>
-                    <a href="https://www.facebook.com" rel="noreferrer" target="_blank"><img src={facebook} alt="Facebook" /></a>
-                    <a href="https://www.instagram.com" rel="noreferrer" target="_blank"><img src={instagram} alt="Instagram" /></a>
-                    <a href="https://www.tiktok.com" rel="noreferrer" target="_blank"><img src={tiktok} alt="TikTok" /></a>
+                <a href="https://www.facebook.com" rel="noreferrer" target="_blank"><img src={facebook} alt="Facebook" /></a>
+                <a href="https://www.instagram.com" rel="noreferrer" target="_blank"><img src={instagram} alt="Instagram" /></a>
+                <a href="https://www.tiktok.com" rel="noreferrer" target="_blank"><img src={tiktok} alt="TikTok" /></a>
+                <a href="https://www.youtube.com" rel="noreferrer" target="_blank"><img src={youtube} alt="TikTok" /></a>
             </div>
         </footer>
     );

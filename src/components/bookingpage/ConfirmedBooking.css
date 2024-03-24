@@ -1,0 +1,47 @@
+.confirmed-booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #EDEFEE;
+    background-color: #495E57;
+    font-family: 'Markazi Text', serif;
+    padding: 2rem;
+}
+.hero img {
+    width: 25vw;
+    aspect-ratio: 1/1;
+    border-radius: 16px;
+}
+.confirmed-booking h1 {
+    color: #F4CE14;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0;
+}
+.confirmed-booking h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #EDEFEE;
+    margin: 0;
+}
+.confirmed-booking p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #EDEFEE;
+    margin: 0;
+}
+
+.confirmed-booking button {
+    background-color: #F4CE14;
+    color: #333333;
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #495E57;
+    border-radius: 16px;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
