@@ -99,7 +99,7 @@ function BookingForm() {
                             <option>Anniversary</option>
                         </select>
                     </div>
-                    <button aria-label="Make Your reservation" type="submit" disabled={!isFormValid()}>Make Your reservation</button>
+                    <button aria-label="Make your reservation" type="submit" disabled={!isFormValid()}>Make your reservation</button>
                 </fieldset>
             </form>
         </div>

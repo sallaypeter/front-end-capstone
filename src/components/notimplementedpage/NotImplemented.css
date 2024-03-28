@@ -1,0 +1,19 @@
+.notimplemented {
+    background-color: #495E57;
+    font-family: 'Markazi Text', serif;
+    text-align: center;
+    padding: 2rem;
+}
+
+.notimplemented h1 {
+    color: #EDEFEE;
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.notimplemented img {
+    width: 200px;
+    height: auto;
+}

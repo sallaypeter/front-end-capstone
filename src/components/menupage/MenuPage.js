@@ -1,7 +1,9 @@
+import NotImplemented from "../notimplementedpage/NotImplemented";
+
 function MenuPage() {
     return (
         <>
-            <h1>Menu Page</h1>
+            <NotImplemented />
         </>
     );
 }

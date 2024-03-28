@@ -1,10 +1,9 @@
-import LoginForm from "./LoginForm";
+import NotImplemented from "../notimplementedpage/NotImplemented";
 
 function LoginPage() {
     return (
         <>
-            <h1>Login form</h1>
-            <LoginForm />
+            <NotImplemented />
         </>
     );
 }

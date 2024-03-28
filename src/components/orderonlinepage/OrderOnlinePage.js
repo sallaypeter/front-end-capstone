@@ -1,7 +1,9 @@
+import NotImplemented from "../notimplementedpage/NotImplemented";
+
 function OrderOnlinePage() {
     return (
         <>
-            <h1>Order Online Page</h1>
+            <NotImplemented />
         </>
     );
 }
