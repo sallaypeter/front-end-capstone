@@ -1,5 +1,6 @@
 .hero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #495E57;
     gap: 10vw;
@@ -9,9 +10,17 @@
     padding-right: 10vw;
     font-family: 'Markazi Text', serif;
 }
+.hero-text {
+    flex: 1;
+}
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
 .hero img {
-    width: 25vw;
-    aspect-ratio: 1/1;
+    min-width: 200px;
+    max-width: 300px;
+    aspect-ratio: 1;
     border-radius: 16px;
 }
 .hero h1 {
@@ -30,7 +39,6 @@
     font-size: 24px;
     font-weight: 500;
     color: #EDEFEE;
-    max-width: 40vw;
     margin-top: 0;
 }
 .hero a {

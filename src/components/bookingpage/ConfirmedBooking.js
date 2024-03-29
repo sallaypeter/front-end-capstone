@@ -6,7 +6,7 @@ function ConfirmedBooking() {
     const {bookingData} = useContext(BookingDataContext);
 
     const emailBookingData = () => {
-        alert("Your booking data has been emailed successfully.\nThanks you!");
+        alert("Your booking data has been emailed successfully.\n\nThanks you!");
     }
 
     return (

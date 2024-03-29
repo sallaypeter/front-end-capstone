@@ -53,21 +53,11 @@ function BookingForm() {
         navigate("/confirmbooking");
     }
 
-    /*
     const isFormValid =
         (formData.resDate) &&
         (formData.resTime && formData.resTime !== "Select Time" ) &&
         (formData.guests && formData.guests !== "") &&
         (formData.occasion && formData.occasion !== "Select Occassion");
-    */
-
-    function isFormValid() {
-        const isValid = (formData.resDate) &&
-        (formData.resTime && formData.resTime !== "Select Time" ) &&
-        (formData.guests && formData.guests !== "") &&
-        (formData.occasion && formData.occasion !== "Select Occassion");
-        return isValid;
-    }
 
     return (
         <div className="booking-form">
@@ -99,7 +89,7 @@ function BookingForm() {
                             <option>Anniversary</option>
                         </select>
                     </div>
-                    <button aria-label="Make your reservation" type="submit" disabled={!isFormValid()}>Make your reservation</button>
+                    <button aria-label="Make your reservation" type="submit" disabled={!isFormValid}>Make your reservation</button>
                 </fieldset>
             </form>
         </div>

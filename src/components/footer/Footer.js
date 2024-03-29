@@ -9,7 +9,7 @@ import youtube from "../../assets/youtube-32.png";
 function Footer() {
     return (
         <footer>
-            <img src={restaurant} alt="Inside Little Lemon Restaurant"></img>
+            <img id="rest-image" src={restaurant} alt="Inside Little Lemon Restaurant"></img>
             <div>
                 <h2>Navigation</h2>
                 <ul>

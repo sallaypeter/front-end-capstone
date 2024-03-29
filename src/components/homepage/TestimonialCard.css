@@ -1,6 +1,6 @@
 .testimonial-card {
     width: 200px;
-    height: 175px;
+    height: 125px;
     background-color: #edefee;
     color: #333333;
     text-align: left;
@@ -19,6 +19,9 @@
 .testimonial-card #stars {
     font-size: 14px;
     letter-spacing: 5px;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding: 0;
 }
 .pic-name {
     display: flex;

@@ -1,6 +1,6 @@
 import './App.css';
+import HeaderWithNavbar from './components/homepage/HeaderWithNavbar';
 import Footer from './components/footer/Footer';
-import Nav from './components/homepage/Nav';
 import HomePage from './components/homepage/HomePage';
 import AboutPage from './components/aboutpage/AboutPage';
 import MenuPage from './components/menupage/MenuPage';
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <Nav />
+      <HeaderWithNavbar />
       <BookingDataContext.Provider value={{bookingData, setBookingData}}>
         <Routes>
           <Route path='/' element={<HomePage />}></Route>

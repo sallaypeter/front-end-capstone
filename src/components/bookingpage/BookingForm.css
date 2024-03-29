@@ -1,8 +1,7 @@
 .booking-form {
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: auto;
     font-family: 'Markazi Text', serif;
     font-size: 24px;
     color: #EDEFEE;
@@ -10,7 +9,7 @@
 }
 
 fieldset {
-    width: 30vw;
+    width: 50vw;
     padding: 16px;
     border: none;
 }
@@ -54,21 +53,10 @@ select {
     padding: 0 8px;
 }
 
-.FieldError {
-    position: absolute;
-    bottom: -6px;
-    color: red;
-    font-size: 18px;
-}
-
-.Row {
-    display: flex;
-    flex-direction: row;
-}
-
 button {
+    align-self: center;
     padding: 12px;
-    width: 240px;
+    width: 100%;
     border-radius: 16px;
     border: 1px solid #495E57;
     color: #495E57;
@@ -76,7 +64,6 @@ button {
     font-size: 18px;
     font-weight: 800;
     cursor: pointer;
-    margin-left: calc((30vw - 240px)/2);
 }
 
 button:disabled,
@@ -87,4 +74,9 @@ button[disabled] {
     cursor: not-allowed;
 }
 
+@media(max-width: 1000px) {
+    fieldset {
+        width: 90vw;
+    }
+}
 

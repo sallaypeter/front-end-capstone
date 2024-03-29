@@ -1,5 +1,6 @@
 .chicago {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -8,9 +9,17 @@
     gap: 5vw;
     font-family: 'Karla', sans-serif;
 }
+.chicago-text {
+    flex: 2;
+}
+.chicago-image {
+    flex: 1;
+    text-align: right;
+}
 .chicago img {
-    width: 20vw;
-    aspect-ratio: 1/1;
+    min-width: 200px;
+    max-width: 300px;
+    aspect-ratio: 1;
 }
 .chicago h1 {
     color: #F4CE14;
@@ -31,5 +40,4 @@
     font-size: 16px;
     font-weight: 400;
     margin: 0;
-    max-width: 35vw;
 }

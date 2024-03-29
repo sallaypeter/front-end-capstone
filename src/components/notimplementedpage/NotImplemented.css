@@ -9,11 +9,12 @@
     color: #EDEFEE;
     font-size: 64px;
     font-weight: 500;
+    line-height: 90%;
     margin: 0;
     padding: 0;
 }
 
 .notimplemented img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
